@@ -1,0 +1,6 @@
+
+compile:
+	gcc -o eseive eseive.c -std=c99 -lm -fopenmp prime.a -O2
+
+run:
+	./eseive 
